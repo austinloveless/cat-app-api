@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const data = require("./api/cat-api");
 const port = parseInt(process.env.PORT || 8080);
-console.log(data);
 const app = express();
 app.use(
   cors({
